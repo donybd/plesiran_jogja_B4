@@ -1,0 +1,62 @@
+.tableContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 59rem;
+  margin-top: 4.4rem;
+}
+.tableContainer h2 {
+  margin-bottom: 20px;
+}
+.tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableContainer table,
+.tableContainer th,
+.tableContainer td {
+  border: 1px solid #ddd;
+}
+.tableContainer th,
+.tableContainer td {
+  padding: 10px;
+  text-align: left;
+}
+.tableContainer th {
+  background-color: #f2f2f2;
+}
+.tableContainer td img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.actions i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.actions i:hover {
+  color: #007bff;
+}
+.addNewBtn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin: 0.2rem;
+  border: 1.5px solid #007bff;
+}
+
+.addNewBtn:hover {
+  color: #007bff;
+  background-color: #fff;
+  border: 1.5px solid #007bff;
+}
+
+.addNewBtn i {
+  margin-left: 5px;
+}

@@ -1,0 +1,62 @@
+.tableContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tableContainer h3 {
+  margin-top: 0;
+}
+.tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableContainer table th,
+.tableContainer table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.tableContainer table th {
+  background-color: #f0f0f0;
+}
+.tableContainer table td img {
+  border-radius: 50%;
+}
+.tableContainer .actions i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.tableContainer .actions i:hover {
+  color: #007bff;
+}
+.addNewBtn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin: 0.2rem;
+  border: 1.5px solid #007bff;
+}
+
+.addNewBtn:hover {
+  color: #007bff;
+  background-color: #fff;
+  border: 1.5px solid #007bff;
+}
+
+.addNewBtn i {
+  margin-right: 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}

@@ -1,0 +1,108 @@
+/* ISI */
+.hero-det-tour {
+  position: relative;
+  height: 700px;
+  background: url("../../assets/img/TOUR/123456.webp") no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.hero-det-tour h1 {
+  font-size: 48px;
+  z-index: 1;
+}
+.hero-det-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content {
+  padding: 0 80px;
+}
+.txt-content h2 {
+  margin-top: 67px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.txt-content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.des-tour {
+  padding: 0 80px;
+}
+.txt-content {
+  margin-top: 62px;
+}
+.txt-content ul li {
+  font-size: 16px;
+  font-weight: 600;
+}
+.det-price {
+  padding: 0 80px;
+}
+.fees-included {
+  padding: 0 80px;
+}
+.booking-form-kk {
+  padding: 0 80px;
+  background-color: #d2b48c;
+}
+.booking-form-kk label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.booking-form-kk input,
+.booking-form-kk select,
+.booking-form-kk button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.booking-form-kk {
+  margin-bottom: 36px;
+}
+.btn-custom {
+  background-color: #f9f9f9;
+  border: none;
+  color: black;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 10px;
+}
+.txt-form {
+  font-size: 16px;
+  font-weight: 400;
+}
+.booking-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn-booking {
+  background-color: #d2b48c;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-booking:hover {
+  background-color: #d2b48c;
+}

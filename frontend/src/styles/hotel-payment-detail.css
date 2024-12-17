@@ -1,0 +1,227 @@
+/* Hero Section */
+.hero-hotel-payment {
+  position: relative;
+  background-image: url("../assets/img/HOTEL/tentrem-hotel-yogyakarta-facade-image02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.hero-hotel-payment h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-hotel-payment p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.booking-info {
+  background-color: #1f1e1c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.booking-info .date,
+.booking-info .rooms {
+  display: flex;
+  align-items: center;
+}
+
+.booking-info .date::after {
+  content: "";
+  display: inline-block;
+  width: 0.5px;
+  height: 50px;
+  background-color: #fff;
+  margin: 0 60px;
+}
+
+.booking-info i {
+  margin-right: 8px;
+}
+
+/* Styling untuk input tanggal */
+.date-picker-start,
+.date-picker-end {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  width: auto;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.date-picker-start::placeholder,
+.date-picker-end::placeholder {
+  color: #ccc;
+}
+
+.date-picker-start:focus,
+.date-picker-end:focus {
+  outline: none;
+}
+
+.booking-info .rooms select.room-selector {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none;
+  margin-left: 8px;
+}
+
+.room-selector:focus {
+  outline: none;
+}
+
+.booking-info .date i:last-child,
+.booking-info .rooms i:last-child {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+select {
+  color: black;
+}
+
+option {
+  color: black;
+}
+
+/* Progress bar */
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 0;
+  border-top: 2px dashed #ddd;
+  z-index: -1;
+}
+
+.step {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #ddd;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+}
+
+.step.active {
+  background-color: #000;
+  border-color: #e8e1d0;
+  opacity: 0;
+}
+
+/* Garis aktif putus-putus */
+.progress-bar .active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 66%;
+  height: 0;
+  border-top: 2px dashed #000;
+  z-index: -1;
+}
+
+/* Accordion */
+.accordion {
+  width: 80%;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #444;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  background-color: #333;
+  color: #f4f4f4;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-header:hover {
+  background-color: #b29a73;
+}
+
+.accordion-header .number {
+  display: inline-block;
+  background-color: #e8e1d0;
+  color: #333;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.accordion-header .title {
+  flex-grow: 1;
+  font-size: 22px;
+  color: #f4f4f4;
+}
+
+.accordion-header::after {
+  content: "";
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active::after {
+  transform: rotate(180deg);
+}
+.room-link {
+  text-decoration: none;
+}

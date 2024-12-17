@@ -1,0 +1,35 @@
+
+.info {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Information h5 {
+  color: #6c757d;
+}
+.card {
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 600;
+}
+/* .form-control {
+  width: 730px;
+  height: 54px;
+} */
+
+.btn-primary {
+  width: 280px;
+  height: 54px;
+  background-color: #b3956d;
+  border-color: #b3956d;
+}
+
+.btn-primary:hover {
+  background-color: #9e8359;
+  border-color: #9e8359;
+}

@@ -1,0 +1,67 @@
+.mainContent {
+  margin-top: 4.4rem;
+  width: 59rem;
+}
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content h3 {
+  margin-top: 0;
+}
+.formGroup {
+  margin-bottom: 15px;
+}
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formGroup input,
+.formGroup select {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+.fileUpload {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fileUpload:hover {
+  background-color: #f9f9f9;
+}
+.fileUpload i {
+  font-size: 50px;
+  color: #ccc;
+}
+.fileUpload span {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+}
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+}
+.formActions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submitBtn {
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px;
+}
+.cancelBtn {
+  background-color: #ccc;
+  color: #000;
+}

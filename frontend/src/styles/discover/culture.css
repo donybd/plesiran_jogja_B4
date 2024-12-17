@@ -1,0 +1,158 @@
+/* BANNER */
+.hero-culture {
+  position: relative;
+  color: #fff;
+  background-image: url("../../assets/img/BUDAYA/upacara-sekaten.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  left: 0;
+  right: 0;
+  position: absolute;
+  padding: 15px 80px;
+  top: 60%;
+  height: 150px;
+  width: 100%;
+  background-color: var(--sub-hero-bg);
+}
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.discover {
+  padding: 0 80px;
+}
+.discover h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.discover p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.dashed-line {
+  border: none;
+  border-top: 2px dashed #674121;
+  border-spacing: 5px;
+  padding: 0 80px;
+}
+/* BANNER END */
+
+/* CULTURE */
+.culture {
+  padding: 0 80px;
+}
+.culture h2 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.culture h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.img-cult {
+  max-width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.culture p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.row h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: "Source Serif Pro";
+  display: flex;
+  width: 463px;
+  height: 237px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.btn {
+  background-color: #b29a73; /* Warna latar belakang tombol */
+  color: white; /* Warna teks */
+  padding: 10px 20px;
+  border-radius: 21px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn a {
+  color: rgb(255, 255, 255); /* Warna teks link dalam tombol */
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.culture .col-sm-4 img {
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  width: 350px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.culture .col-sm-8 img {
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  width: 750px;
+  height: 300px;
+  flex-shrink: 0;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.stretched-link {
+  color: #674121;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+.card-img-top {
+  padding: 10px 10px;
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+/* DETAIL CULTURE */
+.Culture-info h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #674121;
+}
+
+.Culture-info p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}

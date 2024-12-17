@@ -1,0 +1,396 @@
+
+/* BANNER */
+.hero {
+  position: relative;
+  color: #fff;
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  left: 0;
+  right: 0;
+  position: absolute;
+  padding: 15px 80px;
+  top: 65%;
+  width: 100%;
+  background-color: var(--sub-hero-bg);
+}
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.discover {
+  padding: 0 80px;
+}
+.discover h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.discover p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.dashed-line {
+  border: none;
+  border-top: 2px dashed #674121;
+  border-spacing: 5px;
+  padding: 0 80px;
+}
+/* BANNER END */
+
+/* LIST DESTINATION */
+.list {
+  padding: 0 80px;
+}
+.swiper-slide {
+  position: relative;
+  width: 247px;
+}
+.judul-list {
+  font-size: 48px;
+  font-weight: 600;
+}
+html {
+  scroll-behavior: smooth;
+}
+.tranding-slide {
+  position: relative;
+}
+a.tranding-slide {
+  text-decoration: none;
+}
+.tranding-slide-title h5 {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+.tranding-slide .tranding-slide-img img {
+  width: 247px;
+  height: 343px;
+  border-radius: 10px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+.tranding-slide .tranding-slide-content {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  right: 10px;
+  bottom: 27px;
+}
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+.tranding-slider-control .slider-arrow {
+  background: rgba(255, 255, 255, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.8));
+}
+.tranding-slider-control .slider-arrow::after {
+  font-size: 16px;
+  color: #000000;
+}
+/* LIST DESTINATION END */
+
+/* CSS DETAIL DESTINATION */
+/* DETAIL DESTINATION */
+/* Carousel */
+.carousel-item img {
+  width: 100%;
+  height: 959px;
+  height: 100vh;
+  object-fit: cover;
+  padding: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 25px 25px;
+  filter: invert(1);
+  background-color: var(--color-ikon) !important;
+}
+/* DETAIL DESTINATION */
+
+/* INFORMATION PAGE 1 */
+.informasi {
+  padding: 0 80px;
+}
+.tittle {
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 30px;
+  justify-content: center;
+  background-color: #b29a73 !important;
+  height: 86px;
+}
+.tittle ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.tittle-link {
+  text-decoration: none;
+}
+.informasi .row {
+  display: flex;
+  align-items: stretch;
+}
+.informasi .col-6 {
+  display: flex;
+  flex-direction: column;
+}
+.deskripsi .img-fluid {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-height: 95%;
+}
+.deskripsi h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.deskripsi h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.deskripsi ul {
+  font-size: 16px;
+  font-weight: 400;
+}
+.deskripsi p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* INFORMATION PAGE 1 END */
+
+/* FASILITAS PAGE 2 */
+.fasilitas {
+  padding: 0 80px;
+}
+.fasilitas .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+.info-box {
+  background-color: #fbfbfb;
+}
+.see-box {
+  background-color: #b29a73;
+  padding: 10px;
+  font-size: 32px;
+}
+.see-box2 {
+  background-color: #b29a73;
+  padding: 10px;
+  font-size: 16px;
+}
+.judul-info {
+  font-size: 32px;
+  font-weight: 600;
+}
+.judul-info2 {
+  font-size: 32px;
+  font-weight: 600;
+  display: inline-block;
+  width: cover;
+  border-bottom: 1px solid #674121;
+  margin-top: 20px;
+  padding: 3px;
+}
+.facilities-box {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 10px;
+}
+.facilities-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.facilities-icon i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.see-box2 ul li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.open-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.opening-hours-link {
+  font-size: 16px;
+  color: #674121;
+  text-decoration: none;
+}
+/* FASILITAS PAGE 2 END */
+
+/* ENTRANCE FEES */
+.ticket {
+  padding: 0 80px;
+}
+.bg-light-brown {
+  background-color: #b29a73;
+}
+.custom-table .header-cell {
+  background-color: #b29a73;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+}
+.table {
+  font-size: 16px;
+  font-weight: 400;
+}
+.custom-table,
+.custom-table th,
+.custom-table td {
+  border: 1px solid black;
+}
+
+.judul-info3 {
+  font-size: 32px;
+  font-weight: 600;
+  display: inline-block;
+  width: cover;
+  border-bottom: 1px solid #ffffff;
+}
+/* ENTRANCE FEES END */
+
+/* TRAVEL TIPS */
+.travel-tips {
+  padding: 0 80px;
+  color: #ffffff;
+  position: relative;
+}
+.bg {
+  background-color: #b29a73;
+}
+.ol-li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+/* TRAVEL TIPS END */
+
+/* LOCATION */
+.location {
+  padding: 0 80px;
+}
+.text-p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* LOCATION END */
+
+/* OTHER DESTINATION */
+.otherdest {
+  margin-left: 0;
+  margin-top: 40px;
+  padding: 0 80px;
+}
+.judul-info2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-dest {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.card-dest:hover {
+  transform: scale(1.05);
+}
+.card-dest-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card-title-dest {
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-text-dest {
+  font-size: 16px;
+  font-weight: 400;
+}
+.stretched-link {
+  color: #674121;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* OTHER DESTINATION END */
+
+/* POP UP SEE OPENING HOURS */
+.modal-fade {
+  padding: 0 80px;
+  background-color: var(--color-body);
+}
+.modal-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.text-muted {
+  font-size: 16px;
+  font-weight: 600;
+}
+.modal-body {
+  font-size: 16px;
+  font-weight: 600;
+}
+.day-row {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.day-row i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.day-name {
+  font-weight: 600;
+  margin-right: auto;
+}
+.time-info {
+  color: #000000;
+}
+/* POP UP SEE OPENING HOURS END */

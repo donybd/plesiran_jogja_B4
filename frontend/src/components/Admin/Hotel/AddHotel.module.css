@@ -1,0 +1,94 @@
+.mainContent {
+  margin-top: 4.4rem;
+  width: 59rem;
+}
+.formSection {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10pgba (0, 0, 0, 0.1);
+}
+.formSection h3 {
+  margin-bottom: 20px;
+}
+.formSection label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formSection input[type='text'],
+.formSection input[type='file'],
+.formSection select,
+.formSection textarea {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+.uploadBox {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.uploadBox i {
+  font-size: 50px;
+  color: #ccc;
+}
+.uploadBox p {
+  margin-top: 10px;
+  color: #ccc;
+}
+.checkboxGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkboxGroup label {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.checkboxGroup input {
+  margin-right: 10px;
+}
+.editor {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.editorToolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.editorToolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.editorContent {
+  min-height: 100px;
+}
+.formActions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.formActions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.submitBtn {
+  background-color: #007bff;
+  color: #fff;
+}
+.cancelBtn {
+  background-color: #ccc;
+  color: #333;
+}

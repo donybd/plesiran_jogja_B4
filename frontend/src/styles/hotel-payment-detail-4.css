@@ -1,0 +1,136 @@
+
+/* Payment Section Container */
+.payment-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #e8e1d0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* Header */
+.payment-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #999;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-header h2 {
+  font-size: 22px;
+  color: #333;
+  margin-left: 15px;
+}
+
+.payment-header .number {
+  display: inline-block;
+  background-color: #333;
+  color: #e8e1d0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Body Styling */
+.payment-body h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.payment-body h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Payment Method Options */
+.payment-method {
+  margin-bottom: 20px;
+}
+
+.payment-method label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-method img {
+  width: 50px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Total Section */
+.total-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds space between rows */
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  padding: 5px 0; /* Add vertical padding between rows */
+}
+
+/* Ensure all text is styled consistently */
+.total-row h3,
+.total-row p {
+  margin: 0;
+  color: #333;
+}
+
+/* Adjust the size for the amounts */
+.total-row h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.total-row p {
+  font-size: 18px;
+}
+
+/* Highlight Final Total */
+.total-row h3:last-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  margin-top: 20px;
+}
+
+/* Pay Now Button */
+.pay-now {
+  width: 150px;
+  padding: 10px;
+  background-color: #b29a73;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pay-now:hover {
+  background-color: #997d52;
+}

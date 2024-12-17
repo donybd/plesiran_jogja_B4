@@ -1,0 +1,65 @@
+/* Main styling */
+.rentinfo {
+  margin-top: 100px;
+}
+.main-image {
+  border-radius: 5px;
+}
+
+.thumbnail-images img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.booking-card {
+  background-color: #f5f0e1;
+  border-radius: 8px;
+}
+
+.sub-total {
+  font-size: 24px;
+  color: #000;
+}
+
+.title-box {
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.specifications,
+.important-info,
+.pickup-location {
+  background-color: #f5f0e1;
+  border-radius: 10px;
+}
+.pickup-option {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+
+.pickup-option .form-check-input {
+  margin-right: 10px;
+}
+.pickup-option label {
+  margin-bottom: 0;
+}
+
+.hero-rent-payment {
+  position: relative;
+  background-image: url("../assets/img/RENTAL/rentalbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,100 @@
+/* Reviews Section */
+.reviews h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.review-overview {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.review-overview h3 {
+	font-size: 40px;
+	color: #000000;
+}
+
+.score-details {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.score-details h3,
+.score-details p {
+	margin: 0;
+}
+
+.stars {
+	color: gold;
+	font-size: 20px;
+	margin-top: 8px;
+}
+
+.review-list .review-item {
+	border-top: 1px solid #ddd;
+	padding: 15px 0;
+}
+
+.review-list .review-item:first-child {
+	border-top: none;
+}
+
+.review-item h4 {
+	margin: 0;
+	font-size: 18px;
+	color: #555;
+}
+
+.review-item .review-date {
+	color: #888;
+	font-size: 14px;
+}
+
+.review-text {
+	margin-top: 10px;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+}
+
+.review-list .review-item .review-details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.review-details .reviewer {
+	display: flex;
+	align-items: center;
+}
+
+.review-details .reviewer img {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.rating-bar {
+	background-color: #eee;
+	border-radius: 3px;
+	overflow: hidden;
+	margin: 5px 0;
+	width: 150px;
+}
+
+.rating-bar-inner {
+	height: 8px;
+	background-color: gold;
+}
+
+.helpful {
+	color: #7bbcb0;
+	cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.hero-trip {
+  position: relative;
+  color: #fff;
+  background-image: url("../../assets/img/TOUR/candi.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero-contenttrip {
+  left: 0;
+  right: 0;
+  position: absolute;
+  padding: 0px 80px;
+  top: 40%;
+  width: 100%;
+}
+.text-jdl {
+  font-size: 48px;
+  font-weight: 600;
+}
+/* Tour card image styling */
+.list-tour {
+  padding: 0 80px;
+}
+.tour-card {
+  border: 1px solid #b29a73;
+}
+.tour-card img {
+  height: 300px;
+  object-fit: cover;
+  padding: 10px 10px;
+}
+.card-title-tour {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  padding-right: 0px;
+}
+.card-body {
+  padding-right: 50px;
+  padding-left: 0px;
+}
+.line-tour {
+  border: 1px solid #8e8e8e;
+}
+.card-text {
+  padding-left: 20px;
+}
+.card-text-ikon i {
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #b29a73;
+  font-size: 20px;
+}
+.card-text-ikon .no-padding {
+  padding: 0;
+}
+.btn-tour {
+  margin-left: 10px;
+}
+
+.discover h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero-section h1 {
+  font-size: 100px;
+  font-family: bold;
+}
+.card-body a:first-of-type {
+  background-color: #b29a73;
+  border: 2px solid #b29a73;
+  border-radius: 20px;
+  color: white;
+}
+
+.card-body a:nth-of-type(2) {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+}

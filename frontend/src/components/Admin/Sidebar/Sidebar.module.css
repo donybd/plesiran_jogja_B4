@@ -1,0 +1,46 @@
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  position: fixed;
+  top: 60px; /* Pushes the sidebar below the header */
+  bottom: 0;
+  left: 0;
+  border-right: 1px solid #ddd;
+  padding-top: 40px;
+  z-index: 5; /* Sidebar will be below the header */
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a i {
+  margin-right: 10px;
+}
+
+.sidebar ul li.active {
+  background-color: #e0e7ff;
+}
+
+.sidebar ul li.active a {
+  color: #333;
+}

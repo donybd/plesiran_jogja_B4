@@ -1,0 +1,80 @@
+.reservation {
+  margin: 0px 80px;
+}
+.sidebar {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sidebar .nav-link {
+  padding: 15px 20px;
+  color: #333;
+  border-left: 4px solid transparent;
+}
+
+.sidebar .nav-link.active {
+  background-color: #b5a17f;
+  color: white;
+  border-left-color: #8b7355;
+}
+
+.hotel-card {
+  background-color: #f4efe6;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.hotel-card img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.status-badge {
+  font-size: 16px;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status-booked {
+  background-color: #ffc107;
+  color: #000;
+  text-decoration: "none";
+}
+
+.status-ticket {
+  background-color: #b29a73;
+  color: #000;
+}
+
+.status-completed {
+  background-color: #28a745;
+  color: #fff;
+  align-items: end;
+}
+
+.detail .namahotel {
+  font-size: 20px;
+  font-style: bold;
+}
+.btn-cancel {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-details {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+}
+
+.btn-review {
+  background-color: #b5a17f;
+  color: white;
+  border-radius: 0px;
+}

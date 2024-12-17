@@ -1,0 +1,60 @@
+.mainContent {
+  margin-top: 5rem;
+  color: black;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+.table .status {
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.reserved {
+  background-color: #28a745;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.canceled {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.table .action a {
+  color: #dc3545;
+  text-decoration: none;
+}

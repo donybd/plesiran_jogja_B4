@@ -1,0 +1,180 @@
+/* Main */
+main {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+/* Sidebar */
+.sidebarhtl {
+  width: 25%;
+  height: 25%;
+  margin-top: 40px;
+  padding: 20px;
+  background: #e8e1d0 !important;
+  margin-left: 1rem;
+}
+
+/* Form Elements */
+.sidebar label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar h2,
+.sidebar h3 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidebar input[type="text"],
+.sidebar input[type="date"],
+.sidebar input[type="number"],
+.sidebar .search-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.search-btn {
+  background-color: #b29973;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.search-btn:hover {
+  background-color: #997d52;
+}
+
+/* Stars */
+.stars label {
+  color: gold;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.stars input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Hotel List */
+.hotel-listings {
+  width: 75%;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sort-options {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.sort-options label {
+  margin-right: 10px;
+}
+
+.hotels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.hotel-card {
+  background-color: #e8e1d0 !important;
+  height: 100%;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hotel-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.hotel-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hotel-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hotel-card > * {
+  margin-bottom: 0.5rem;
+}
+
+.hotel-card > *:last-child {
+  margin-bottom: 0;
+}
+
+.hotel-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.hotel-link:hover {
+  color: #b29a73;
+}
+
+.star-rating {
+  font-size: 20px;
+  color: gold;
+  margin-top: 10px;
+}
+/* Responsive Styles for Main Content Only */
+@media (max-width: 1200px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .hotel-listings {
+    width: 100%; /* Adjust hotel listings for larger mobile devices */
+  }
+  .hotels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sort-options {
+    justify-content: flex-start;
+  }
+  .stars {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .sort-options {
+    margin-top: -50px;
+    justify-content: flex-start;
+  }
+
+  .stars label {
+    font-size: 16px;
+    flex: 1 1 45%;
+  }
+  .stars input[type="checkbox"] {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+  .hotels {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}

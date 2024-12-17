@@ -1,0 +1,371 @@
+/* Hero Section */
+.hero-detail-hotel {
+  position: relative;
+  background-image: url("../assets/img/HOTEL/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.hero-detail-hotel h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-detail-hotel h3 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero-detail-hotel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.booking-form {
+  background-color: #1f1e1c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-group {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.form-group:not(:last-child) {
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+}
+
+.book-now-btn {
+  background-color: #b29973;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.book-now-btn:hover {
+  background-color: #997d52;
+}
+
+select {
+  color: black;
+}
+
+option {
+  color: black;
+}
+
+/* Rooms Section */
+.rooms {
+  text-align: center;
+  padding: 0 80px;
+  margin-bottom: 20px;
+}
+
+.rooms h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.room-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.room-card a {
+  text-decoration: none;
+  color: inherit;
+}
+.room-card {
+  width: 30%;
+  background: #e8e1d0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 40px);
+  width: 100%;
+  max-width: 1000px;
+  border: 0;
+}
+
+.room-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.star-rating {
+  font-size: 20px;
+  color: gold;
+  margin-top: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #000;
+  transition: color;
+}
+
+.clickable:hover {
+  color: #b29a73;
+}
+
+/* Facilities Section */
+.facilities {
+  margin-top: 5px;
+  padding: 30px 80px;
+  text-align: center;
+  background: #1f1e1c;
+  color: #fff;
+}
+
+.facilities h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.facility-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+  padding: 0 20px;
+}
+
+.facility-images img {
+  width: 100%;
+}
+
+/* Location Section */
+.location {
+  text-align: center;
+}
+
+.location h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.location iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.map {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 10px;
+}
+
+/* Reviews Section */
+.reviews {
+  margin: 20px 80px;
+  padding: 0 80px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.review-overview {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.review-overview h3 {
+  font-size: 40px;
+  color: #000000;
+}
+
+.score-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.score-details h3,
+.score-details p {
+  margin: 0;
+}
+
+.stars {
+  color: gold;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.review-list .review-item {
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.review-list .review-item:first-child {
+  border-top: none;
+}
+
+.review-item h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.review-item .review-date {
+  color: #888;
+  font-size: 14px;
+}
+
+.review-text {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.review-list .review-item .review-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-details .reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.review-details .reviewer img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.rating-bar {
+  background-color: #eee;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 5px 0;
+  width: 150px;
+}
+
+.rating-bar-inner {
+  height: 8px;
+  background-color: gold;
+}
+
+.helpful {
+  color: #7bbcb0;
+  cursor: pointer;
+}
+
+/* Existing CSS remains unchanged here for .navbar and .footer */
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and up */
+@media screen and (min-width: 768px) {
+  .booking-form {
+    flex-direction: row; /* Keep in row layout */
+  }
+
+  .room-card {
+    flex: 1 1 calc(33.333% - 40px); /* Three columns */
+  }
+
+  .facility-images {
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+  .hero h1 {
+    font-size: 32px; /* Smaller font size for mobile */
+  }
+
+  .hero-text {
+    padding: 0 10px; /* Add some padding */
+  }
+
+  .booking-form {
+    flex-direction: column; /* Stack form items vertically */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .form-group {
+    margin-right: 0; /* Reset margin */
+    margin-bottom: 10px; /* Space between groups */
+  }
+
+  .room-card {
+    width: 90%; /* Allow cards to be wider on mobile */
+    margin: 10px auto; /* Center cards */
+  }
+
+  .facility-images {
+    grid-template-columns: repeat(1, 1fr); /* One column for mobile */
+  }
+
+  .location iframe {
+    height: 300px; /* Smaller map for mobile */
+  }
+
+  .reviews {
+    padding: 10px; /* Adjust padding for reviews */
+  }
+}

@@ -1,0 +1,61 @@
+.content {
+  width: 60rem;
+  margin-top: 4.4rem;
+}
+.profileSettings {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profileSettings h3 {
+  margin-top: 0;
+}
+.profilePic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profilePic img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.profilePic button {
+  padding: 10px 20px;
+  background-color: #2c2c2c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profilePic button:hover {
+  background-color: #444;
+}
+.profileSettings form {
+  display: flex;
+  flex-direction: column;
+}
+.profileSettings form label {
+  margin-bottom: 5px;
+}
+.profileSettings form input {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+}
+.profileSettings form button {
+  padding: 10px 20px;
+  background-color: #2c2c2c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profileSettings form button:hover {
+  background-color: #444;
+}

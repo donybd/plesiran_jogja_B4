@@ -1,0 +1,82 @@
+/* HERO*/
+.hero2 {
+  position: relative;
+  color: #fff;
+  background-image: url("../assets/img/bannerAU.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.hero-overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.hero-content2 {
+  position: absolute;
+  padding: 15px 80px;
+  top: 40%;
+  width: 100%;
+}
+.hero-content2 h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+/* HERO END */
+
+/* DESKRIPSI ABOUT US */
+.about-us {
+  padding: 0 80px;
+}
+.about-us h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.about-us p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* DESKRIPSI ABOUT US END*/
+
+.img-fluid {
+  border-radius: 32px;
+  height: 100vh;
+}
+/* VISI MISI */
+.visimisi {
+  padding: 0 80px;
+  background-color: #8d7c62 !important;
+}
+.vision-text {
+  font-size: 14px;
+  padding: 10px 80px;
+}
+.judul {
+  font-weight: 600;
+}
+/* VISI MISI END */
+
+/* OTHER DEST */
+.otherdest {
+  padding: 0 80px;
+}
+.stretched-link {
+  color: #674121;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+.judul-info2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+/* OTHER DEST END */
